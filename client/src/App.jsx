@@ -13,6 +13,7 @@ axios.defaults.withCredentials = true;
 
 function App() {
   
+// used subpage to enable the particular tab to be marked using its classn, then the ? at the end if for optional
 
   return (
     <UserContextProvider>
@@ -21,7 +22,8 @@ function App() {
           <Route index element={<IndexPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
-          <Route path="/account" element={<AccountPage />} />
+          <Route path="/account/:subpage?" element={<AccountPage />} /> 
+          
         </Route>
       </Routes>
     </UserContextProvider>

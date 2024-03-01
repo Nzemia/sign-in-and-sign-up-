@@ -16,7 +16,7 @@ export default function Header(){
                 
                 
 
-                <div className="flex gap-2 border border-gray-300 rounded-full py-2  shadow-md shadow-grey-300">
+                <div className="flex p-4 gap-2 border border-gray-300 rounded-full py-2  shadow-md ">
                     <div className="div">Anywhere</div>
                     <div className="border-l border-gray-400"></div>
                     <div className="div">Any week</div>
